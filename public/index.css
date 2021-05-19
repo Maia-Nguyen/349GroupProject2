@@ -82,7 +82,7 @@ footer {
 
 h2 {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-top: 45px;
 }
 
@@ -99,16 +99,16 @@ h2 {
     margin: auto;
     margin-bottom: 300px;
     padding-bottom: 100px;
-    width: 80%;
+    width: 70%;
     top: 150px;
 
-    background-color: rgba(89, 102, 155, 0.179);
+    background-color: rgb(205, 231, 241);
 }
 
 .header {
     width: 100%;
+    color:rgb(97, 141, 158);
     background-color: white;
-    padding-bottom: 50px;
 }
 
 .icon {
@@ -119,7 +119,6 @@ h2 {
 
 .headTitle {
     text-align: center;
-    font-weight: lighter;
     font-size: 50px;
 }
 
@@ -128,8 +127,6 @@ h2 {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-bottom: 25px;
-    background-color: white;
 }
 
 .BtnNav {
@@ -140,6 +137,7 @@ h2 {
     border-top: 1px solid #909090;
     border-bottom: 1px solid #909090;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 .DocBtns {
@@ -159,8 +157,8 @@ h2 {
 }
 
 .Btns:hover {
-    background-color: #8390c7;
-    color: white;
+    background-color: rgb(158, 208, 228);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -168,6 +166,7 @@ h2 {
 .currentCases {
     margin: auto;
 }
+
 
 .curCasesTable {
     margin: auto;

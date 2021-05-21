@@ -19,6 +19,7 @@ export const fetchData = async (country) => {
 };
 
 // Instead of Global, it fetches the daily data for the US
+
 export const fetchDailyData = async () => {
     try {
       const { data } = await axios.get('https://disease.sh/v3/covid-19/nyt/usa');

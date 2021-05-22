@@ -11,6 +11,7 @@ body {
 
 /*Navbar */
 .navbar {
+    font-family: 'Arial', sans-serif;  
     position: absolute;
     width: 100%;
     background-color: black;
@@ -22,22 +23,46 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: black;
+}
 
+.right {
+    float: right;
+}
+
+.nav-brand {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 3.5px;
+    left: 22px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-brand:hover {
+    background-color: none;
+    color: white;
 }
 
 .nav-item,
 .nav-link {
-    float: left;
+    float: right;
     display: block;
     color: whitesmoke;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-link {
+    float: right;
 }
 
 /*Navbar hover */
 li a:hover:not(.active) {
-    background-color: grey;
     color: white;
 }
 
